@@ -1,0 +1,20 @@
+@mixin blac ($vert) {
+	-webkit-border-radius: $vert;
+	-moz-border-radius: $vert;
+	-ms-border-radius: $vert;
+	-o-border-radius:$vert;
+	border-radius: $vert;
+
+}
+
+@mixin fontSize ($fontPixel) {
+	font-size: $fontPixel / 16px * 1em;
+}
+
+@mixin percentWidth ($contentWidth, $containerWidth) {
+	width: percentage($contentWidth / $containerWidth);
+}
+
+@mixin mVert ($marginVertical) {
+	margin: $marginVertical 0;
+}

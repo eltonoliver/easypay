@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'futura_lt_btlight';
+  src: url("futult-webfont.eot");
+  src: url("futult-webfont.eot?#iefix") format("embedded-opentype"), url("futult-webfont.woff2") format("woff2"), url("futult-webfont.woff") format("woff"), url("futult-webfont.ttf") format("truetype"), url("futult-webfont.svg#futura_lt_btlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'futura_lt_btlight';
+  text-decoration: none;
+}
+
+/*
+	=======================
+		HEADER
+	=======================
+*/
+header {
+  width: 100%;
+  height: 83px;
+}
+header div {
+  width: 100%;
+  max-width: 930px;
+  margin: auto;
+  height: 83px;
+}
+header div img {
+  float: left;
+  margin: 10px;
+}
+header div .btcont {
+  float: right;
+  padding: 10px;
+  margin: 21px;
+  color: #fff;
+  background: #e1e100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header div .btcont:hover {
+  background: #ffff00;
+}
+@media screen and (max-width: 468px) {
+  header div img {
+    float: left;
+    margin: 10px;
+    width: 163px;
+  }
+  header div .btcont {
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 10px;
+  }
+}
+
+/*===menu-top===*/
+#menu-top {
+  width: 100%;
+  background: #3892ca;
+  min-height: 80px;
+}
+#menu-top #menu {
+  width: 100%;
+  max-width: 930px;
+  margin: auto;
+}
+#menu-top #menu #bod {
+  border-right: 1px solid #000068;
+}
+#menu-top #menu li {
+  list-style: none;
+  border-left: 1px solid #000068;
+  display: inline;
+  float: left;
+}
+#menu-top #menu li:hover {
+  background: #59a9db;
+}
+#menu-top #menu li a {
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  padding: 0 20px;
+}
+#menu-top #menu form {
+  position: relative;
+  float: right;
+}
+#menu-top #menu form #busca {
+  float: right;
+  margin: 22px 15px 0 0;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  width: 206px;
+  height: 26px;
+  padding: 5px 41px 5px 15px;
+}
+#menu-top #menu form #btbusca {
+  border: 0;
+  background: url(../images/lupa.png);
+  position: absolute;
+  top: 28px;
+  left: 229px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+/*
+	=======================
+		SECTION
+	=======================
+*/
+section {
+  width: 100%;
+  float: none;
+}
+section #three-columns {
+  width: 100%;
+  max-width: 930px;
+  margin: auto;
+  padding-top: 30px;
+  min-height: 350px;
+}
+section #three-columns a {
+  width: 29.35484%;
+  background: #f2f3f6;
+  float: left;
+  margin: 1.84%;
+  padding-bottom: 30px;
+}
+section #three-columns a img {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+section #three-columns a:hover {
+  background: #e7e7e8;
+}
+section #three-columns a h3 {
+  padding: 15px;
+  color: #3892ca;
+}
+section #three-columns a p {
+  color: #666;
+  padding: 5px 15px;
+}
+section #boxapp {
+  width: 100%;
+  background: #3892ca;
+  height: 350px;
+}
+section #boxapp #base-app {
+  width: 100%;
+  max-width: 930px;
+  margin: auto;
+  min-height: 350px;
+}
+section #boxapp #base-app h1 {
+  color: #fff;
+  padding: 30px 15px;
+  font-size: 40px;
+  font-weight: bold;
+}
+section #boxapp #base-app #baiapp {
+  float: left;
+  min-width: 200px;
+  margin: 0 0 0 15px;
+  list-style: inside;
+}
+section #boxapp #base-app #baiapp li {
+  list-style: none;
+}
+section #boxapp #base-app #baiapp a {
+  background: #0066a6;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1px solid #333;
+  float: left;
+  margin: 10px 0px;
+}
+section #boxapp #base-app #baiapp a:hover {
+  background: #3892ca;
+}
+section #boxapp #base-app img {
+  float: right;
+  margin: 0 15px 0 0;
+}
+section article {
+  width: 100%;
+  max-width: 930px;
+  margin: 30px auto;
+}
+section article .titulo {
+  font-size: 1.5625em;
+  margin: 30px 6px;
+}
+section article #blococonta {
+  width: 100%;
+  min-height: 300px;
+  background: #eceff2;
+}
+section article #blococonta #conta {
+  width: 46.23656%;
+  margin: 10px;
+  margin-right: 0;
+  float: left;
+}
+section article #blococonta #conta h1 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+section article #blococonta #conta h1 span {
+  font-size: 12px;
+}
+section article #blococonta #vercont {
+  float: right;
+  margin: 15px;
+  margin-left: 0px;
+  border-left: 1px solid #666;
+  padding-left: 20px;
+  width: 46.77419%;
+}
+section article #blococonta #vercont h3 {
+  margin-bottom: 15px;
+}
+section article #blococonta #vercont ul li {
+  list-style: none;
+  line-height: 27px;
+  width: 100%;
+  font-size: 12px;
+  border-bottom: 1px dashed #666;
+}
+section article #blococonta #vercont ul li span {
+  float: right;
+}
+section article #blococonta #vercont ul li:last-child {
+  border: none;
+}
+section article #user-menu {
+  width: 100%;
+  background: #000068;
+  float: left;
+  margin-bottom: 50px;
+}
+section article #user-menu li {
+  float: left;
+  list-style: none;
+  display: inline;
+  width: 24.94624%;
+  text-align: center;
+  background: #000068;
+}
+section article #user-menu li:hover {
+  background: #212189;
+}
+section article #user-menu li a {
+  line-height: 40px;
+  color: #fff;
+}
+section article .menuop {
+  width: 19.56989%;
+  float: left;
+  margin: 2px;
+  background: #3892ca;
+  text-align: center;
+  padding: 3% 0;
+}
+section article .menuop p {
+  color: #fff;
+  font-size: 0.9375em;
+}
+@media screen and (max-width: 945px) {
+  section article .menuop {
+    width: 24.4086% !important;
+    margin: 1px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  section article .menuop {
+    width: 32.4086% !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+  }
+}
+section article .camp-form {
+  text-align: center;
+}
+section article .camp, section article .camp2 {
+  width: 96%;
+  margin: auto;
+  text-indent: 15px;
+  padding: 10px 0;
+  margin-bottom: 17px;
+}
+section article .camp2 {
+  width: 47.55% !important;
+}
+section article #btcriar {
+  width: 96%;
+  color: #fff;
+  background: #f00;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+section article #btcriar:hover {
+  background: #b50a0a;
+}
+
+@media screen and (max-width: 667px) {
+  #menu-top #menu {
+    margin: auto;
+    text-align: center;
+  }
+  #menu-top #menu li {
+    display: inline;
+    margin: auto;
+    float: none;
+  }
+  #menu-top #menu li a {
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    padding: 0 8px;
+  }
+  #menu-top #menu form {
+    display: none;
+  }
+
+  article {
+    margin: 0 !important;
+  }
+  article #blococonta {
+    background: none !important;
+  }
+  article #blococonta #conta {
+    width: 100% !important;
+    text-align: center;
+    margin: 0 !important;
+    padding-top: 30px;
+    background: #eceff2;
+  }
+  article #blococonta #conta h1 {
+    font-size: 30px;
+    margin-top: 5px !important;
+  }
+  article #blococonta #conta h1 span {
+    font-size: 12px;
+  }
+  article #blococonta #vercont {
+    float: left;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 30px 0 0 0 !important;
+    width: 100% !important;
+    background: #eceff2;
+  }
+  article #blococonta #vercont h3 {
+    text-align: center;
+  }
+  article #blococonta #vercont ul {
+    margin: 0 8px;
+  }
+  article #user-menu li {
+    width: 33.33333% !important;
+    float: left;
+  }
+  article #user-menu #bt {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  section #wrapper {
+    display: none;
+  }
+  section #three-columns a {
+    width: 97%;
+    float: left;
+  }
+  section #three-columns a img {
+    float: left;
+    width: 100%;
+  }
+  section #three-columns {
+    float: left;
+  }
+  section #boxapp {
+    float: left;
+    height: 400px;
+  }
+  section #boxapp #base-app img {
+    float: right;
+    margin: 30px 15px;
+    width: 35.69892%;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 397px) {
+  section #boxapp #base-app img {
+    display: none;
+  }
+}
+
+/*
+	=======================
+		FOOTER
+	=======================
+*/
+footer {
+  width: 100%;
+  background: #000068;
+  text-align: center;
+  float: left;
+}
+footer p {
+  color: #fff;
+  padding: 30px;
+}
+footer a {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
